@@ -139,7 +139,7 @@
 								moveFuncId1 = false,
 								moveFunc1 = function () {
 									if (loop != 0) {
-										strMove.stop(true).animate({
+									strMove.stop(true).animate({
 											left: leftPos
 										}, timeFunc1(), 'linear', function () {
 											$(this).css({
